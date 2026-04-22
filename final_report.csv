@@ -1,0 +1,10 @@
+Customer_Name,Product,Category,Quantity,Price,Total,Category.1,Total Sales
+Ranju,Laptop,Electronics,1.0,80000.0,80000.0,Electronics,220000
+Sita,Phone,Electronics,2.0,30000.0,60000.0,Fashion,11000
+Amit,Shoes,Fashion,3.0,2000.0,6000.0,,
+Rita,Bag,Fashion,2.0,1500.0,3000.0,Customer,Total Sales
+Ram,Laptop,Electronics,1.0,80000.0,80000.0,Ranju,80000
+Sita,Shoes,Fashion,1.0,2000.0,2000.0,Sita,62000
+,,,,,,Amit,6000
+,,,,,,Rita,3000
+,,,,,,Ram,80000
