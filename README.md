@@ -49,10 +49,10 @@ Used Pandas for data analysis:
 ```python
 import pandas as pd
 
-df = pd.read_excel("sales_data.xlsx")
+data = pd.read_excel("sales_data.xlsx")
 
-category_sales = df.groupby("Category")["Total"].sum()
-customer_sales = df.groupby("Customer_Name")["Total"].sum()
+category_sales = data.groupby("Category")["Total"].sum()
+customer_sales = data.groupby("Customer_Name")["Total"].sum()
 
 print(category_sales)
 print(customer_sales)
